@@ -1,0 +1,6 @@
+hub MyZenodoHubnarrow
+shortLabel ZenodoHubnarrow
+longLabel Track hub con file Narrow da Zenodo
+genomesFile genomes.txt
+email m.benda@campus.unimib.it
+descriptionUrl https://github.com/mbenda-ctrl/ucsc/blob/main/README.md

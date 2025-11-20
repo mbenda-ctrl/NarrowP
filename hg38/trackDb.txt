@@ -1,0 +1,55 @@
+# SuperTrack container
+track Peaks
+superTrack on show
+shortLabel Peaks
+longLabel ChIP-seq peak calls
+visibility full
+
+# Sub-tracks
+track S61451_IP_WT_S77_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61451_IP_WT_1_S77_narrow_peaks.narrowPeak
+shortLabel WT_1_peaks
+longLabel IP WT 1 peaks
+type bed 9
+color 0,128,255
+
+track S61452_IP_Storm_1_S58_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61452_IP_Storm_1_S58_narrow_peaks.narrowPeak
+shortLabel Storm1_peaks
+longLabel IP Storm 1 peaks
+type bed 9
+color 0,200,255
+
+track S61453_IP_Nacl_1_S23_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61453_IP_Nacl_1_S23_narrow_peaks.narrowPeak
+shortLabel Nacl1_peaks
+longLabel IP Nacl 1 peaks
+type bed 9
+color 0,255,200
+
+track S61454_IP_Amr_1_S33_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61454_IP_Amr_1_S33_narrow_peaks.narrowPeak
+shortLabel Amr1_peaks
+longLabel IP Amr 1 peaks
+type bed 9
+color 0,255,128
+
+track S61455_IP_E11_1_S50_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61455_IP_E11_1_S50_narrow_peaks.narrowPeak
+shortLabel E11_peaks
+longLabel IP E11 1 peaks
+type bed 9
+color 0,255,0
+
+track S61456_IP_C412_1_S49_peaks
+parent Peaks
+bigDataUrl https://zenodo.org/records/17660423/files/S61456_IP_C412_1_S49_narrow_peaks.narrowPeak
+shortLabel C412_peaks
+longLabel IP C412 1 peaks
+type bed 9
+color 128,255,0
